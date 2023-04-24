@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: #333333;
+  font-size: 20px;
+  height: 100vh;
+}
+
+.form {
+  text-align: center;
+  width: 800px;
+  padding: 40px 20px;
+  border: solid rgb(255, 255, 255) 3px;
+  border-radius: 10px;
+}
+.form .form__box,
+.form .form__info {
+  margin: 20px 10px;
+}
+
+label {
+  font-size: 36px;
+}
+
+input {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.passinfo {
+  font-size: 18px;
+  color: rgb(172, 169, 169);
+}
+
+li {
+  list-style: inside;
+}/*# sourceMappingURL=style.css.map */
